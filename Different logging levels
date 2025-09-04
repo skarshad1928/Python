@@ -1,0 +1,9 @@
+import logging
+
+logging.basicConfig(level=logging.DEBUG, format="%(levelname)s - %(message)s")
+
+logging.debug("Debugging details (for developers)")
+logging.info("User logged in successfully")
+logging.warning("Disk space is low")
+logging.error("Database connection failed")
+logging.critical("System crash - shutting down!")
