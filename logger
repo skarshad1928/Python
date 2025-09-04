@@ -1,0 +1,21 @@
+import logging
+
+# Create a logger object
+logger = logging.getLogger("MyAppLogger")
+logger.setLevel(logging.DEBUG)   # this logger will accept DEBUG and above
+
+# Add a console handler
+console_handler = logging.StreamHandler()
+console_handler.setLevel(logging.INFO)
+
+# Add format
+formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+console_handler.setFormatter(formatter)
+
+# Attach handler to logger
+logger.addHandler(console_handler)
+
+# Example usage
+logger.debug("This is debug (will be ignored)")   # not shown, because console level = INFO
+logger.info("This is info ✅")                     # will be shown
+logger.error("This is error ❌")                   # will be shown
