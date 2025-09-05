@@ -1,0 +1,53 @@
+Advanced Task 05-09-25
+Ah! You want **web scraping tasks/questions** that are **safe and legal** (don’t violate terms of service) so you can practice without risking bans or illegal activity. Here’s a list of options and resources you can use:
+
+---
+
+## **1️⃣ Safe Websites for Practice**
+
+These sites allow scraping or have open APIs:
+
+1. **Books to Scrape** – [http://books.toscrape.com](http://books.toscrape.com)
+
+   * Fake bookstore for practicing scraping titles, prices, ratings.
+
+2. **Quotes to Scrape** – [http://quotes.toscrape.com](http://quotes.toscrape.com)
+
+   * Practice scraping quotes, authors, and tags.
+
+3. **OpenWeatherMap API** – [https://openweathermap.org/api](https://openweathermap.org/api)
+
+   * Use API to fetch weather data. APIs are safe for learning.
+
+4. **IMDB Top 250 (via OMDb API)** – [http://www.omdbapi.com](http://www.omdbapi.com)
+
+   * Safe access to movie data through an API.
+
+5. **JSONPlaceholder** – [https://jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com)
+
+   * Fake online REST API for testing and learning.
+
+---
+
+## **2️⃣ Sample Web Scraping Task Ideas**
+
+* Scrape all book titles, prices, and ratings from *Books to Scrape*.
+* Scrape all quotes and authors from *Quotes to Scrape*.
+* Fetch current weather of multiple cities using *OpenWeatherMap API*.
+* Scrape or fetch top movies and their ratings from OMDb API.
+* Extract post titles and comments from *JSONPlaceholder*.
+
+---
+
+## **3️⃣ Guidelines for Safe Web Scraping**
+
+1. Always **check `robots.txt`** of a site.
+2. Avoid scraping sensitive or private data.
+3. Don’t overload servers; use **delays (`time.sleep`)**.
+4. Prefer **APIs** if available.
+
+---
+
+If you want, I can make a **ready-to-use list of 20+ safe web scraping exercises** with links, difficulty levels, and ideas for using **OOP, threading, and file handling** for each.
+
+Do you want me to make that list?
