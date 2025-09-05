@@ -1,6 +1,56 @@
-Basic Threading - 10 am
-Threading,lock() -11 :40 am
-Thread Synchronization()- 12:45 pm
-Thread pool-3:00 pm
-Multi threading vs threading -4:00pm
-Practical Threading Use Cases for Data Analysts  - 5:00pm
+📝 Task: Parallel CSV Downloader + Reader
+
+Pick 3–5[ CSV datasets from Kaggle or any open sou](<../../../Desktop/DATA WARE HOUSE AND DATA MINING/archive>)rce (or create dummy CSVs yourself).
+Example: sales.csv, customers.csv, orders.csv.
+
+Write a Python program that does this:
+
+Uses threading to read all CSV files in parallel.
+
+Each thread should print:
+
+"Started reading <filename>"
+
+"Finished reading <filename>"
+
+Store the data into a shared dictionary like:
+
+data = {
+    "sales.csv": <DataFrame>,
+    "customers.csv": <DataFrame>
+}
+
+
+Use threading.Lock() to make sure only one thread writes to the dictionary at a time.
+
+After all threads finish (join()), print:
+
+Total rows in each DataFrame
+
+Total combined rows across all files
+
+Example Output (Your goal 🚀):
+Started reading sales.csv
+Started reading customers.csv
+Started reading orders.csv
+Finished reading sales.csv
+Finished reading customers.csv
+Finished reading orders.csv
+
+✅ All files loaded successfully
+
+sales.csv → 1000 rows
+customers.csv → 500 rows
+orders.csv → 2000 rows
+TOTAL rows = 3500
+
+
+✨ What you’ll learn by solving this:
+
+Creating & starting threads
+
+Using join() to wait for threads
+
+Using Lock for safe shared access
+
+Applying threading in a real analyst workflow

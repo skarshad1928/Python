@@ -1,0 +1,11 @@
+2025-09-05 11:20:54,728 - INFO - Started reading sample.csv
+2025-09-05 11:20:54,729 - INFO - Started reading sample2.csv
+2025-09-05 11:20:54,731 - INFO - Started reading sample3.csv
+2025-09-05 11:20:56,748 - INFO - Finished reading sample3.csv
+2025-09-05 11:20:56,768 - INFO - Finished reading sample2.csv
+2025-09-05 11:20:56,770 - INFO - Finished reading sample.csv
+2025-09-05 11:20:56,770 - INFO - All files processed \u2705
+2025-09-05 11:20:56,772 - INFO - sample3.csv has 843 rows
+2025-09-05 11:20:56,772 - INFO - sample2.csv has 2514 rows
+2025-09-05 11:20:56,772 - INFO - sample.csv has 2823 rows
+2025-09-05 11:20:56,773 - INFO - Total rows across all datasets: 6180
