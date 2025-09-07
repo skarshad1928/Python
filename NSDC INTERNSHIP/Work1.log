@@ -1,0 +1,3 @@
+2025-09-07 20:50:47,085 - INFO - Dropped Lat Long column Successfully
+2025-09-07 20:50:47,088 - INFO - Removed columns are unnecessary  column They might be fall in categorical or  numeric But statistic Operation Unrelated
+2025-09-07 20:50:47,090 - INFO - Converted  Data Type of total charges to float64
