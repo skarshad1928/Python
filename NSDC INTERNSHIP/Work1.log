@@ -1,12 +1,6 @@
-2025-09-08 13:21:43,342 - INFO - Dropped Lat Long column Successfully
-2025-09-08 13:21:43,343 - INFO - Removed columns are unnecessary  column They might be fall in categorical or  numeric But statistic Operation Unrelated
-2025-09-08 13:21:43,346 - INFO - Converted  Data Type of total charges to float64
-2025-09-08 13:21:51,327 - INFO - Dropped Lat Long column Successfully
-2025-09-08 13:21:51,327 - INFO - Removed unrelated numeric columns
-2025-09-08 13:21:51,329 - INFO - Converted Data Type of Total Charges to float64
-2025-09-08 13:24:47,295 - INFO - Dropped Lat Long column Successfully
-2025-09-08 13:24:47,297 - INFO - Removed columns are unnecessary  column They might be fall in categorical or  numeric But statistic Operation Unrelated
-2025-09-08 13:24:47,300 - INFO - Converted  Data Type of total charges to float64
-2025-09-08 13:24:55,111 - INFO - Dropped Lat Long column Successfully
-2025-09-08 13:24:55,112 - INFO - Removed unrelated numeric columns
-2025-09-08 13:24:55,114 - INFO - Converted Data Type of Total Charges to float64
+2025-09-08 13:29:14,424 - INFO - Dropped Lat Long column Successfully
+2025-09-08 13:29:14,425 - INFO - Removed columns are unnecessary  column They might be fall in categorical or  numeric But statistic Operation Unrelated
+2025-09-08 13:29:14,426 - INFO - Converted  Data Type of total charges to float64
+2025-09-08 13:29:21,869 - INFO - Dropped Lat Long column Successfully
+2025-09-08 13:29:21,870 - INFO - Removed unrelated numeric columns
+2025-09-08 13:29:21,872 - INFO - Converted Data Type of Total Charges to float64
